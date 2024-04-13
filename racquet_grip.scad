@@ -13,11 +13,11 @@ a = 45;    // diagonal bevels angle
 gl = 200;
 
 // throat
-tl = 30;
-th = 22;
-tw = 31.5;
-r1 = 5.5; // x-rounding
-r2 = 11;  // y-rounding
+tl = 30;  // length of the transition between grip and throat
+th = 22;  // height of the throat
+tw = 31.5; // width of the throat
+r1 = 5.5; // x-rounding (where the short side connects to the long)
+r2 = 11;  // y-rounding (at the middle of the short 'rounded' side)
 
 // 'collar' above the throat
 cl = 2;
@@ -28,7 +28,7 @@ ri = 1.7;
 ox = 1;
 oz = 2;
 
-// full length of the mold
+// full length of the mold, grip length + collar
 ml = gl + cl;
 
 // mold outer dimensions
