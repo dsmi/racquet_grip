@@ -1,5 +1,5 @@
 
-// length of the spacer
+// Length of the spacer
 l = 4;
 
 // thickness of the spacer
